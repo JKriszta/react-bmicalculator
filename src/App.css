@@ -1,0 +1,38 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(34, 33, 33);
+  
+}
+.title {
+  color: rgb(44 121 194);
+  font-variant: small-caps;
+  text-shadow:  1px 2px 8px rgb(16, 15, 15);
+  font-weight: bold;
+}
+
+
+
+.container {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+input {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  color: rgb(44 121 194)
+}
+input:focus {
+  outline: none;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus{
+  outline: none!important;
+  box-shadow: none!important;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+

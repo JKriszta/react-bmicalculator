@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/reactbmicalculator/static/css/main.3b46497b.css",
+    "main.js": "/reactbmicalculator/static/js/main.51aaced1.js",
+    "static/media/weightScale.png": "/reactbmicalculator/static/media/weightScale.d23a10d208715cc55638.png",
+    "index.html": "/reactbmicalculator/index.html",
+    "main.3b46497b.css.map": "/reactbmicalculator/static/css/main.3b46497b.css.map",
+    "main.51aaced1.js.map": "/reactbmicalculator/static/js/main.51aaced1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b46497b.css",
+    "static/js/main.51aaced1.js"
+  ]
+}

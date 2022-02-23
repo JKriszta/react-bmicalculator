@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/reactbmicalculator/static/css/main.3b46497b.css",
-    "main.js": "/reactbmicalculator/static/js/main.51aaced1.js",
-    "static/media/weightScale.png": "/reactbmicalculator/static/media/weightScale.d23a10d208715cc55638.png",
-    "index.html": "/reactbmicalculator/index.html",
-    "main.3b46497b.css.map": "/reactbmicalculator/static/css/main.3b46497b.css.map",
-    "main.51aaced1.js.map": "/reactbmicalculator/static/js/main.51aaced1.js.map"
+    "main.css": "/react-bmicalculator/static/css/main.3b46497b.css",
+    "main.js": "/react-bmicalculator/static/js/main.98950ae8.js",
+    "static/media/weightScale.png": "/react-bmicalculator/static/media/weightScale.d23a10d208715cc55638.png",
+    "index.html": "/react-bmicalculator/index.html",
+    "main.3b46497b.css.map": "/react-bmicalculator/static/css/main.3b46497b.css.map",
+    "main.98950ae8.js.map": "/react-bmicalculator/static/js/main.98950ae8.js.map"
   },
   "entrypoints": [
     "static/css/main.3b46497b.css",
-    "static/js/main.51aaced1.js"
+    "static/js/main.98950ae8.js"
   ]
 }

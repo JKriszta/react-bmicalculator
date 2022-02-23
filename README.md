@@ -1,1 +1,1 @@
-# create BMI Calculator
+# create React BMI Calculator

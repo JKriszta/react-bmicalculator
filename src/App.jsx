@@ -31,7 +31,7 @@ function App() {
     console.log(weight);
     console.log(height);
     result = weight / (height * height);
-    // setShow(true);
+    //  setShow(true);
   }
 
 
@@ -48,7 +48,7 @@ function App() {
 
           <div className="col-md-4 p-5 m-5">
             <form className="form">
-              <p className="description">Mindössze két adatot kell megadnod a testtömeg index kiszámításához.</p>
+              <p className="description">Két adatot kell megadnod a testtömeg index kiszámításához.</p>
 
               <div className="mb-4 pt-5">
                 <input type="number" id="weight" className="weight form-control h-100" placeholder="súly (kg)" onChange={(e) => setWeight(parseInt(e.target.value))} />

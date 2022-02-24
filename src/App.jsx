@@ -1,8 +1,8 @@
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import WeightScale from './img/weightScale.png';
-import { Result_comp } from './components/Result_comp';
-import React, { useState, useEffect } from 'react';
+import { Result } from './components/Result';
+import React, { useState } from 'react';
 
 function App() {
 
@@ -12,6 +12,7 @@ function App() {
   const [show, setShow] = useState(true);
 
   let result = 0;
+  let testprop = "testing prop";
 
   // 	80 kg súlyú 1,65 m magasságú személy esetén:
 
@@ -27,11 +28,14 @@ function App() {
   // 35-40 túlzott elhízás
   // 40 fölött extrém elhízás
 
-  const caluclateResult = () => {
+  const caluclateResult = (e) => {
+    e.preventDefault();
     console.log(weight);
     console.log(height);
-    result = weight / (height * height);
-    //  setShow(true);
+    result = weight / ((height * height) / 10000);
+    console.log(result)
+    testprop = "testing prop in click function";
+    return result;
   }
 
 
@@ -51,16 +55,17 @@ function App() {
               <p className="description">Két adatot kell megadnod a testtömeg index kiszámításához.</p>
 
               <div className="mb-4 pt-5">
-                <input type="number" id="weight" className="weight form-control h-100" placeholder="súly (kg)" onChange={(e) => setWeight(parseInt(e.target.value))} />
+                <input type="number" name="weight" id="weight" className="weight form-control h-100" placeholder="súly (kg)" onChange={(e) => setWeight(parseInt(e.target.value))} />
 
               </div>
               <div className="mb-4">
-                <input type="number" id="height" className="height form-control h-100" placeholder="magasság (cm)" onChange={(e) => setHeight(parseInt(e.target.value))} />
+                <input type="number" name="weight" id="height" className="height form-control h-100" placeholder="magasság (cm)" onChange={(e) => setHeight(parseInt(e.target.value))} />
               </div>
+              <button type="submit" className="btn btn-primary btn-block w-100 mt-4" onClick={caluclateResult}>Számol</button>
             </form>
 
-            <button className="btn btn-primary btn-block w-100 mt-4" onClick={caluclateResult(height, weight)}>Számol</button>
-            <Result_comp result={result} show={show} />
+
+            <Result result={result} show={show} testprop={testprop} />
           </div>
         </div>
       </div>

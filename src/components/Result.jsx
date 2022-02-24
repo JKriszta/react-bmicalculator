@@ -1,9 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 
-export const Result_comp = ({ result, show }) => {
+export const Result = ({ result, show, testprop }) => {
+
+
 	console.log("Result.js: ", result);
-
 	console.log(show);
 
 
@@ -11,6 +12,7 @@ export const Result_comp = ({ result, show }) => {
 		<div className="mt-5 p-3">
 			{show && <p className="result-text">Testtömeg index:</p>}
 			{show && <p className="result">{result}</p>}
+			<p>{testprop}</p>
 
 		</div>
 	)

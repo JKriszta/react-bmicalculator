@@ -9,7 +9,7 @@ function App() {
 
   const [weight, setWeight] = useState(0);
   const [height, setHeight] = useState(1);
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
 
   let result = 0;
 

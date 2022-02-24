@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-bmicalculator/static/css/main.3b46497b.css",
-    "main.js": "/react-bmicalculator/static/js/main.98950ae8.js",
+    "main.css": "/react-bmicalculator/static/css/main.ecb42f27.css",
+    "main.js": "/react-bmicalculator/static/js/main.ca03be85.js",
     "static/media/weightScale.png": "/react-bmicalculator/static/media/weightScale.d23a10d208715cc55638.png",
     "index.html": "/react-bmicalculator/index.html",
-    "main.3b46497b.css.map": "/react-bmicalculator/static/css/main.3b46497b.css.map",
-    "main.98950ae8.js.map": "/react-bmicalculator/static/js/main.98950ae8.js.map"
+    "main.ecb42f27.css.map": "/react-bmicalculator/static/css/main.ecb42f27.css.map",
+    "main.ca03be85.js.map": "/react-bmicalculator/static/js/main.ca03be85.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b46497b.css",
-    "static/js/main.98950ae8.js"
+    "static/css/main.ecb42f27.css",
+    "static/js/main.ca03be85.js"
   ]
 }
